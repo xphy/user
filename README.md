@@ -3,4 +3,4 @@ demo 介绍：
 2、包含MD5 snowFlake 等工具类
 3、使用了lombok tk.Mybatis等插件
 3、整合mybatis框架
-4、整合log4j2日志框架
+4、整合log4j2日志框架  
