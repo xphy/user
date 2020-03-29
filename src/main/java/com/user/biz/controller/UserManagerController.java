@@ -41,4 +41,13 @@ public class UserManagerController extends BaseController {
 
 
 
+//    @RequestMapping("/exportExcel")
+//    public void exportExcel(HttpServletResponse response) throws IOException {
+//        List<String[]> aaa = new ArrayList<>();
+//        String[] bbb = new String[]{"1","2","3","4"};
+//        aaa.add(bbb);
+//        ExcelXlsPoiUtils.Export(response, "",aaa);
+//    }
+
+
 }
