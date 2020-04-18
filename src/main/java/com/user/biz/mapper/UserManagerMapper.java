@@ -18,8 +18,6 @@ import java.util.List;
 @Repository(UserManagerMapper.BEAN_NAME)
 public interface UserManagerMapper extends BaseMapper<User> {
     String BEAN_NAME = "com.user.biz.mapper.UserManagerMapper";
-
-
     //用户登陆
     List<User> login();
 

@@ -2,6 +2,7 @@ package com.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * @author ：mmzs
@@ -12,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version: 1$
  */
 @SpringBootApplication
+@EnableCaching
 public class UserManagerApplication {
     public static void main(String[] args) {
         SpringApplication.run(UserManagerApplication.class);

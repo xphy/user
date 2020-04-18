@@ -1,4 +1,4 @@
-package com.user.base.util.Excel.POI;
+package com.user.base.util.POI;
 
 import com.user.base.util.StringUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -594,39 +594,39 @@ public class ExcelXlsxPoiUtils {
         }
     }
 
-/*    public static void main(String[] args) throws IOException {
-        String sheetName = "测试Excel格式";
-        String sheetTitle = "测试Excel格式1";
-        List<String> columnNames = new LinkedList<>();
-        columnNames.add("日期-String");
-        columnNames.add("日期-Date");
-        columnNames.add("时间戳-Long");
-        columnNames.add("客户编码");
-        columnNames.add("整数");
-        columnNames.add("带小数的正数");
-
-        //写入标题--第二种方式
-        ExcelXlsxPoiUtils.writeExcelTitle("D:\\export", "a", sheetName, columnNames, sheetTitle, false);
-
-        List<List<Object>> objects = new LinkedList<>();
-        for (int i = 0; i < 1000; i++) {
-            List<Object> dataA = new LinkedList<>();
-            dataA.add("2016-09-05 17:27:25");
-            dataA.add(new Date(1451036631012L));
-            dataA.add(1451036631012L);
-            dataA.add("000628");
-            dataA.add(i);
-            dataA.add(1.323 + i);
-            objects.add(dataA);
-        }
-        try {
-            //写入数据--第二种方式
-            ExcelXlsxPoiUtils.writeExcelData("D:\\export", "a", sheetName, objects);
-
-            //直接写入数据--第一种方式
-            ExcelXlsxPoiUtils.writeExcel("D:\\export", "a", sheetName, columnNames, sheetTitle, objects, false);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }*/
+//    public static void main(String[] args) throws IOException {
+//        String sheetName = "测试Excel格式";
+//        String sheetTitle = "测试Excel格式1";
+//        List<String> columnNames = new LinkedList<>();
+//        columnNames.add("日期-String");
+//        columnNames.add("日期-Date");
+//        columnNames.add("时间戳-Long");
+//        columnNames.add("客户编码");
+//        columnNames.add("整数");
+//        columnNames.add("带小数的正数");
+//
+//        //写入标题--第二种方式
+//        ExcelXlsxPoiUtils.writeExcelTitle("D:\\export", "a", sheetName, columnNames, sheetTitle, false);
+//
+//        List<List<Object>> objects = new LinkedList<>();
+//        for (int i = 0; i < 1000; i++) {
+//            List<Object> dataA = new LinkedList<>();
+//            dataA.add("2016-09-05 17:27:25");
+//            dataA.add(new Date(1451036631012L));
+//            dataA.add(1451036631012L);
+//            dataA.add("000628");
+//            dataA.add(i);
+//            dataA.add(1.323 + i);
+//            objects.add(dataA);
+//        }
+//        try {
+//            //写入数据--第二种方式
+//            ExcelXlsxPoiUtils.writeExcelData("D:\\export", "a", sheetName, objects);
+//
+//            //直接写入数据--第一种方式
+//            ExcelXlsxPoiUtils.writeExcel("D:\\export", "a", sheetName, columnNames, sheetTitle, objects, false);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 }
